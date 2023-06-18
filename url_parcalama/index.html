@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Örneği</title>
+    <script src="app2.js"></script> <!-- script.js dosyasını içeri aktarıyoruz -->
+</head>
+
+<body>
+    <form action="http://localhost:8080/" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John" required><br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" value="Doe" required><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="USA" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

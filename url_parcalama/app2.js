@@ -8,4 +8,4 @@ http.createServer(function (req, res) {
     console.log(req.url);
     res.end(txt);
 
-}).listen(8080, () => "uygulama 8080 portunda calismaya basladi ... ");
+}).listen(5555, () => "uygulama 5555 portunda calismaya basladi ... ");
